@@ -1,0 +1,57 @@
+
+.container {
+  width: 80%;
+  height: 1000px; 
+  margin: 50px;
+
+  .checkBoxClass {
+    position: absolute;
+    left: 100px;
+  }
+
+  .itemLabel {
+    margin-left: 10px;
+  }
+
+  .expiredTask {
+    background-color: lightpink !important; 
+  }
+
+  .doneTask {
+    background-color: lightgreen !important; 
+  }
+
+  .expiredTask {
+    background-color: lightpink !important; 
+  }
+
+  .task {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .task:hover {
+    transform: scale(1.02);
+  }
+
+  .addTask {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+
+  .addTaskInput {
+    width: 75%;
+  }
+
+  .addTaskButton {
+    width: 20%;
+  }
+
+}

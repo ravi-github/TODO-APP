@@ -1,0 +1,26 @@
+
+.container {
+  width: 20%;
+  height: 1000px; 
+  margin: 40px 0px 0px 40px;
+
+  .itemLabel {
+    margin-left: 10px;
+  }
+
+  .accordionItem {
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+
+  .accordionHeader button {  
+    background: aliceblue;
+  }
+
+  .listItem {
+    list-style-type: none; 
+    margin: 5px;
+    font-size: 14px;
+  }
+
+}
